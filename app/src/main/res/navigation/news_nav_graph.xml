@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/deadlinesFragment">
+
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.assignments.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment">
+
+        <argument
+            android:name="article"
+            app:argType="com.example.assignments.models.Article"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/deadlinesFragment"
+        android:name="com.example.assignments.ui.fragments.DeadlinesFragment"
+        android:label="DeadlinesFragment" >
+        <action
+            android:id="@+id/action_deadlinesFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.assignments.ui.fragments.FavouriteFragment"
+        android:label="FavouriteFragment" >
+        <action
+            android:id="@+id/action_favouriteFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.assignments.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+</navigation>
