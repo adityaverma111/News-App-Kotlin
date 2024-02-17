@@ -4,7 +4,7 @@
 
 # Tech stack & Open-source libraries
   - [API](https://newsapi.org/) : Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API
-  - [Kotlin](https://kotlinlang.org/) based, [Coroutines](https://github.com/Kotlin/kotlinx.coroutines).
+  - [Kotlin](https://kotlinlang.org/) based,.
  ### Architecture
  - [MVVM Architecture](https://developer.android.com/topic/libraries/architecture/viewmodel) (View - DataBinding - ViewModel - Model)
 
