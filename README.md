@@ -1,3 +1,11 @@
+# Application Download : [Link](https://drive.google.com/file/d/16qsuF446KP1pGP3TWdeBklCHFi174JJ-/view?usp=drivesdk)
+
+## Installation instructions:- 
+
+Click on the gdrive link, select drive application and your google account (if asked) in your smartphone. 
+
+If you are using any other platform than Android smartphone or using browser to download file. Rename the extension of downloaded file to ".apk" then install.
+
 # Overview Of Project
 
 ![Group 3](https://github.com/adityaverma111/News-App-Kotlin/assets/97093480/d41a6ceb-3bbe-4863-89b0-9a498e34f495)
